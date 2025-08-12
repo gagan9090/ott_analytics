@@ -1,0 +1,36 @@
+table.start-td  {
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 100%; 
+    padding: 20px;
+    table-layout: fixed;
+  }
+  
+  table.start-td thead.table-dark {
+    background-color: #15056b;
+    color: white; 
+  
+    
+  }
+  
+  table.start-td .start-new th {
+    font-size: 1rem; /* Set font size for th to 2rem */
+    color: white; 
+    padding: 8px;
+    text-align: left;
+    width: 25%; /* Set an equal width for each column (4 columns, so 100% / 4 = 25%) */
+    overflow: hidden; /* Hide content that doesn't fit in the defined width */
+    white-space: nowrap; /* Prevent text from wrapping */
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflowing text */
+  }
+  
+  table.start-td .start-new2 td {
+    font-size: 0.7rem; /* Set font size for td to 1rem */
+    padding: 8px;
+    text-align: left;
+    width: 25%; /* Set an equal width for each column (4 columns, so 100% / 4 = 25%) */
+    overflow: hidden; /* Hide content that doesn't fit in the defined width */
+    white-space: nowrap; /* Prevent text from wrapping */
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflowing text */
+  }
+  
